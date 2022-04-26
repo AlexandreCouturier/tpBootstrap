@@ -1,0 +1,202 @@
+@font-face {
+    font-family: "SmartSport";
+    src: url("./Font/smartSport/smartsport.otf") format("opentype") ;
+
+    font-family: "FanWood";
+    src: url("./Font/Fanwood_Text/FanwoodText-Italic.ttf") format("truetype"),
+    url("./Font/Fanwood_Text/FanwoodText-Regular.ttf") format("truetype");
+}
+
+body{
+    font-size: 62.5%;
+}
+
+#container{
+    margin: 0 auto;
+    width: 100%;
+}
+                                            /* début de barre nav */
+#nav{
+    height: 160px;
+    background-color: #8AF096;
+    display: flex;
+    justify-content: space-around;
+}
+
+#menu{
+    display: flex;
+    align-self: center;
+    height: 75px;
+
+    width: 550px;
+    justify-content: space-around;
+    align-items: center;
+}
+
+#menu > div{
+    text-align: center;
+}
+
+#menu > div >a{
+    outline: none;
+    text-decoration: none;
+    color: black;
+    font-size: 1.875rem;
+    opacity: 0.5;
+}
+
+#menu > div > a:hover{
+    opacity: 1;
+}
+#nav > #logo{
+    justify-self: center;
+}
+#nav > #logo > img{
+    width: 160px;
+    height: 160px;
+}
+#recherche{
+    display: flex;
+    height: 160px;
+    width: 325px;
+    align-items: center;
+}
+#rechercheDiv{
+    width: 300px;
+    height: 35px;
+    background-color: white;
+    border-radius: 40px;
+    font-size: 1.4rem;
+    text-align: center;
+}
+
+#rechercheDiv>p{
+    margin: 0px;
+    margin-top: 5px;
+}
+#comptePerso{
+    width: 200px;
+    height: 160px;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+#comptePerso>i{
+    font-size: 3.125rem;
+    opacity: 0.5;
+}
+#comptePerso>i:hover{
+    opacity: 1;
+}
+                                             /*fin barre de nav */
+/* presentation airgowatch */
+
+#presentation{
+    height: 800px;
+    background-image: url("../Images/watch/nasro-azaizia-6G1WiqP0K-Y-unsplash.jpeg");
+    background-position: cover;
+    background-size: 100% 100%;
+    background-repeat: no-repeat;
+    display: flex;
+}
+#presentation>div{
+    margin-top: 416px;
+    margin-left: 140px;
+    display: flex;
+    flex-direction: column;
+    height: 120px;
+}
+
+#presentationText{
+    color: white;
+    font-size: 5rem;
+    font-family: "FanWood";
+    height: 85px;
+    
+}
+
+#presentationText>p{
+    margin-top: 0px;
+    margin-bottom: 0px;
+}
+
+#presentationSousText{
+    color: white;
+    font-size: 1.5rem;
+}
+
+#presentationSousText>p{
+    margin-top: 0px;
+    margin-bottom: 0px;
+    text-align: center;
+}
+#positionAdd{
+    display: flex;
+    width: 523px;
+    justify-content: center;
+}
+#addProduit{
+    height: 50px;
+    width: 300px;
+    background-color: white;
+    border-radius: 50px;
+    border-color: #8AF096;
+    border-width: 5px;
+    border-style: solid;
+    margin-top: 39px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+#addProduit>p{
+    color: black;
+    font-size: 1.5rem;
+    font-family: "FanWood";
+
+}
+
+                                    /* fin de présentation airgo watch*/
+
+
+                                            /* image plus petite description*/
+                                            
+.presentationProduits{
+    height: 645px;
+    margin-top: 20px;
+    display: flex;
+    background-color: #2F243A;
+    justify-content: space-between;
+}
+
+.imgPrinc{
+    height: 645px;
+    width: 550px;
+    background-image: url("../Images/coucou/pexels-mikhail-nilov-8456012.jpeg");
+    background-size: cover;
+}
+
+#marginImg{
+    margin-left: 30px;
+}
+
+.paragrapheProduits{
+    height: 645px;
+    width: 580px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    margin-right: 110px;
+}
+.titrePrincipale{
+    font-family: "SmartSport";
+    font-size: 5rem;
+    color: white;
+    text-align: center;
+}
+
+.description{
+    color: white;
+    font-size: 1.875rem;
+    font-family: "FanWood";
+    text-align: center;
+}
